@@ -1,0 +1,31 @@
+{
+  "name": "myportfolio",
+  "version": "1.0.0",
+  "description": "This is my personal porfolio website. It showcase my skills, projects and experience.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anurag-reddy1/MyPortfolio.git"
+  },
+  "keywords": [],
+  "author": "Anurag Reddy Pottigari",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.4.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-jest": "^29.15.2",
+    "eslint-plugin-prettier": "^5.5.5",
+    "global": "^4.4.0",
+    "globals": "^17.6.0",
+    "jest": "^30.4.2",
+    "prettier": "^3.8.3"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  }
+}
