@@ -1,11 +1,652 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Anurag Reddy Pottigari — Software Developer II and CS Master's student at Northeastern University. Explore my skills, projects, and experience."
+    />
+    <meta name="author" content="Anurag Reddy Pottigari" />
+    <meta
+      name="keywords"
+      content="Anurag Reddy, Software Developer, React, TypeScript, Portfolio"
+    />
+    <link rel="icon" type="image/png" href="./images/favicon.png?v=1" />
+    <title>Anurag Reddy Pottigari | Portfolio</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
+
   <body>
-    <h1>Testing</h1>
+    <nav class="navbar navbar-expand-lg navbar-main fixed-top" id="main-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">
+          <span class="gradient-text">Anurag Reddy</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto me-3">
+            <li class="nav-item">
+              <a class="nav-link active" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./playground.html">Ask Anurag</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="hero-section" id="hero">
+        <div class="container">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-7 order-2 order-lg-1">
+              <div class="code-hero-window">
+                <div class="code-hero-titlebar">
+                  <span class="code-dot dot-red"></span>
+                  <span class="code-dot dot-yellow"></span>
+                  <span class="code-dot dot-green"></span>
+                  <span class="code-hero-filename">anurag.config.ts</span>
+                </div>
+                <pre
+                  class="code-hero-body"
+                ><code><span class="code-kw">const</span> <span class="code-var">developer</span> = {
+                <span class="code-prop">name</span>: <span class="code-str">"Anurag Reddy Pottigari"</span>,
+                <span class="code-prop">role</span>: <span class="code-str">"<span id="typed-text"></span><span class="typed-cursor" aria-hidden="true"></span>"</span>,
+                <span class="code-prop">location</span>: <span class="code-str">"Boston, MA"</span>,
+                <span class="code-prop">experience</span>: <span class="code-num">7+</span>,  <span class="code-cmt">// years across 6 companies</span>
+                <span class="code-prop">education</span>: <span class="code-str">"MSCS @ Northeastern"</span>,
+                <span class="code-prop">passions</span>: [
+                  <span class="code-str">"Design Systems"</span>,
+                  <span class="code-str">"Accessible UI"</span>,
+                  <span class="code-str">"Developer Tools"</span>,
+                  ],
+};
+
+<span class="code-kw">export default</span> <span class="code-var">developer</span>;</code></pre>
+              </div>
+              <div class="hero-cta d-flex gap-3 flex-wrap mt-4">
+                <a href="./projects.html" class="btn btn-accent">
+                  <i class="bi bi-collection me-1"></i> View Projects
+                </a>
+                <a href="#about" class="btn btn-outline-accent">
+                  <i class="bi bi-person me-1"></i> About Me
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-5 order-1 order-lg-2 text-center">
+              <img
+                src="./images/profile.jpg"
+                alt="Portrait photo of Anurag Reddy Pottigari"
+                class="hero-profile-img"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="scroll-indicator" aria-hidden="true">
+          <a href="#about"><i class="bi bi-chevron-double-down"></i></a>
+        </div>
+      </section>
+
+      <section class="content-section" id="about">
+        <div class="container">
+          <h2 class="section-title fade-in">About Me</h2>
+          <p class="section-subtitle fade-in">
+            Builder, problem-solver, and full-stack engineer.
+          </p>
+          <div class="row g-5 align-items-center">
+            <div class="col-lg-8">
+              <div class="about-text fade-in">
+                <p>
+                  At my core, I&rsquo;m a builder who loves making things work
+                  better for others. My teammates usually know me as the person
+                  who stays calm under pressure and finds the most efficient way
+                  to solve a problem. I&rsquo;ve always focused on more than
+                  just the immediate fix&mdash;I look for ways to automate
+                  solutions and build reusable tools that make the entire team
+                  more efficient.
+                </p>
+                <p>
+                  Even though I&rsquo;m currently getting my Master&rsquo;s at
+                  Northeastern, I&rsquo;m not a typical student. I&rsquo;ve
+                  spent over seven years working in the real world at companies
+                  like Dayforce, ADP, and IBM. One of my proudest achievements
+                  was building a central UI library that hundreds of other
+                  developers used to work faster. I&rsquo;ve also handled
+                  everything from complex database scripts to cloud automation.
+                </p>
+                <p>
+                  I&rsquo;m proud of the applications I&rsquo;ve built so far,
+                  but I&rsquo;m ready for a more challenging environment.
+                  I&rsquo;m here to combine my professional background with my
+                  research at Northeastern to build impactful, high-scale
+                  software.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="about-stats fade-in">
+                <div class="stat-item">
+                  <span class="stat-number">7+</span>
+                  <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">4</span>
+                  <span class="stat-label">Global Companies</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">100+</span>
+                  <span class="stat-label">Devs Impacted</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section" id="skills">
+        <div class="container">
+          <h2 class="section-title fade-in">Technical Skills</h2>
+          <p class="section-subtitle fade-in">
+            Technologies and tools I work with daily.
+          </p>
+
+          <h3 class="skill-category-title fade-in">Frontend</h3>
+          <div class="row g-3 mb-4">
+            <div class="col-6 col-md-4 col-lg-2">
+              <div class="skill-card fade-in">
+                <div class="skill-card-icon">
+                  <i class="bi bi-filetype-jsx"></i>
+                </div>
+                <p class="skill-card-name mb-0">React</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+              <div class="skill-card fade-in">
+                <div class="skill-card-icon">
+                  <i class="bi bi-braces"></i>
+                </div>
+                <p class="skill-card-name mb-0">TypeScript</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+              <div class="skill-card fade-in">
+                <div class="skill-card-icon">
+                  <i class="bi bi-filetype-js"></i>
+                </div>
+                <p class="skill-card-name mb-0">JavaScript</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+              <div class="skill-card fade-in">
+                <div class="skill-card-icon">
+                  <i class="bi bi-filetype-html"></i>
+                </div>
+                <p class="skill-card-name mb-0">HTML5</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+              <div class="skill-card fade-in">
+                <div class="skill-card-icon">
+                  <i class="bi bi-filetype-css"></i>
+                </div>
+                <p class="skill-card-name mb-0">CSS3</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+              <div class="skill-card fade-in">
+                <div class="skill-card-icon">
+                  <i class="bi bi-bootstrap"></i>
+                </div>
+                <p class="skill-card-name mb-0">Bootstrap</p>
+              </div>
+            </div>
+          </div>
+
+          <h3 class="skill-category-title fade-in">Backend</h3>
+          <div class="row g-3 mb-4">
+            <div class="col-6 col-md-4 col-lg-2">
+              <div class="skill-card fade-in">
+                <div class="skill-card-icon">
+                  <i class="bi bi-hdd-stack"></i>
+                </div>
+                <p class="skill-card-name mb-0">Node.js</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+              <div class="skill-card fade-in">
+                <div class="skill-card-icon">
+                  <i class="bi bi-filetype-py"></i>
+                </div>
+                <p class="skill-card-name mb-0">Python</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+              <div class="skill-card fade-in">
+                <div class="skill-card-icon">
+                  <i class="bi bi-filetype-sql"></i>
+                </div>
+                <p class="skill-card-name mb-0">MS SQL</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+              <div class="skill-card fade-in">
+                <div class="skill-card-icon">
+                  <i class="bi bi-plug"></i>
+                </div>
+                <p class="skill-card-name mb-0">REST APIs</p>
+              </div>
+            </div>
+          </div>
+
+          <h3 class="skill-category-title fade-in">DevOps &amp; Tools</h3>
+          <div class="row g-3">
+            <div class="col-6 col-md-4 col-lg-2">
+              <div class="skill-card fade-in">
+                <div class="skill-card-icon">
+                  <i class="bi bi-git"></i>
+                </div>
+                <p class="skill-card-name mb-0">Git</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+              <div class="skill-card fade-in">
+                <div class="skill-card-icon">
+                  <i class="bi bi-arrow-repeat"></i>
+                </div>
+                <p class="skill-card-name mb-0">CI / CD</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+              <div class="skill-card fade-in">
+                <div class="skill-card-icon">
+                  <i class="bi bi-bug"></i>
+                </div>
+                <p class="skill-card-name mb-0">Cypress</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+              <div class="skill-card fade-in">
+                <div class="skill-card-icon">
+                  <i class="bi bi-play-circle"></i>
+                </div>
+                <p class="skill-card-name mb-0">Playwright</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+              <div class="skill-card fade-in">
+                <div class="skill-card-icon">
+                  <i class="bi bi-cloud"></i>
+                </div>
+                <p class="skill-card-name mb-0">AWS / Azure</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+              <div class="skill-card fade-in">
+                <div class="skill-card-icon">
+                  <i class="bi bi-box-seam"></i>
+                </div>
+                <p class="skill-card-name mb-0">Docker</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section" id="experience">
+        <div class="container">
+          <h2 class="section-title fade-in">Work Experience</h2>
+          <p class="section-subtitle fade-in">
+            Over ten years of professional experience at global companies.
+          </p>
+
+          <div class="row">
+            <div class="col-lg-8">
+              <div class="timeline">
+                <div class="timeline-item fade-in">
+                  <div class="timeline-marker"></div>
+                  <div class="timeline-content">
+                    <span class="timeline-date">Jan 2022 &ndash; Dec 2025</span>
+                    <h3 class="timeline-title">Software Developer II</h3>
+                    <p class="timeline-company">
+                      <i class="bi bi-building me-1"></i>Dayforce, Toronto,
+                      Canada
+                    </p>
+                    <p class="timeline-desc">
+                      Built and architected components for a new Design System
+                      (UI React Component Library) used by feature teams,
+                      improving developer productivity and saving thousands of
+                      hours. Wrote accessible code (a11y) adhering to WCAG AA
+                      standards and developed internal tools for Design System
+                      contributors.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="timeline-item fade-in">
+                  <div class="timeline-marker"></div>
+                  <div class="timeline-content">
+                    <span class="timeline-date">Feb 2020 &ndash; Dec 2021</span>
+                    <h3 class="timeline-title">System Analyst</h3>
+                    <p class="timeline-company">
+                      <i class="bi bi-building me-1"></i>Chubb Fire and
+                      Security, Toronto, Canada
+                    </p>
+                    <p class="timeline-desc">
+                      Led enhancement projects by identifying requirements,
+                      validating configuration, and managing changes to
+                      production. Reduced 90% of manual efforts for master data
+                      maintenance by implementing macros. Wrote SQL scripts for
+                      timesheet application data analysis.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="timeline-item fade-in">
+                  <div class="timeline-marker"></div>
+                  <div class="timeline-content">
+                    <span class="timeline-date">Jan 2016 &ndash; Dec 2019</span>
+                    <h3 class="timeline-title">
+                      Senior SAP HCM Functional Consultant
+                    </h3>
+                    <p class="timeline-company">
+                      <i class="bi bi-building me-1"></i>ADP, Hyderabad, India
+                    </p>
+                    <p class="timeline-desc">
+                      SAP HCM support and upgrade projects involving business
+                      process analysis, configuration, customization, testing,
+                      and production support. Technical point of contact for US
+                      and Canada spin-off projects of HP, Delphi Technologies,
+                      and UTC.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="timeline-item fade-in">
+                  <div class="timeline-marker"></div>
+                  <div class="timeline-content">
+                    <span class="timeline-date"
+                      >Sept 2015 &ndash; Jan 2016</span
+                    >
+                    <h3 class="timeline-title">Associate Software Engineer</h3>
+                    <p class="timeline-company">
+                      <i class="bi bi-building me-1"></i>TCS, Chennai, India
+                    </p>
+                    <p class="timeline-desc">
+                      Trained in Agile Methodologies, Manual Testing, Automation
+                      Testing, and Performance Testing tools.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="timeline-item fade-in">
+                  <div class="timeline-marker"></div>
+                  <div class="timeline-content">
+                    <span class="timeline-date"
+                      >June 2014 &ndash; Dec 2014</span
+                    >
+                    <h3 class="timeline-title">Software Developer Intern</h3>
+                    <p class="timeline-company">
+                      <i class="bi bi-building me-1"></i>IBM, Pune, India
+                    </p>
+                    <p class="timeline-desc">
+                      Automated marketing application package installations on
+                      Cloud Platform (Pure Unice Patterns) using Python.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="timeline-item fade-in">
+                  <div class="timeline-marker"></div>
+                  <div class="timeline-content">
+                    <span class="timeline-date">Jan 2014 &ndash; May 2014</span>
+                    <h3 class="timeline-title">
+                      Academic Initiative Team Member
+                    </h3>
+                    <p class="timeline-company">
+                      <i class="bi bi-building me-1"></i>IBM, Hyderabad, India
+                    </p>
+                    <p class="timeline-desc">
+                      Part of the academic initiative team, trained students in
+                      colleges on mobile application development using IBM
+                      Worklight.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section" id="education">
+        <div class="container">
+          <h2 class="section-title fade-in">Education &amp; Courses</h2>
+          <p class="section-subtitle fade-in">
+            Sharpening my depth in complex software systems.
+          </p>
+
+          <div class="row g-4 mb-5">
+            <div class="col-md-4 fade-in">
+              <div class="education-card">
+                <div class="education-icon">
+                  <i class="bi bi-mortarboard-fill"></i>
+                </div>
+                <h3 class="education-degree">
+                  Master of Science in Computer Science
+                </h3>
+                <p class="education-school">Northeastern University, Boston</p>
+                <p class="education-year mb-0">2026 &ndash; Present</p>
+              </div>
+            </div>
+            <div class="col-md-4 fade-in">
+              <div class="education-card">
+                <div class="education-icon">
+                  <i class="bi bi-cloud-fill"></i>
+                </div>
+                <h3 class="education-degree">
+                  Postgraduate Diploma in Cloud Computing for Big Data
+                </h3>
+                <p class="education-school">Lambton College, Toronto, Canada</p>
+                <p class="education-year mb-0">2020 &ndash; 2021</p>
+              </div>
+            </div>
+            <div class="col-md-4 fade-in">
+              <div class="education-card">
+                <div class="education-icon">
+                  <i class="bi bi-award-fill"></i>
+                </div>
+                <h3 class="education-degree">
+                  Bachelor of Technology in Information Technology
+                </h3>
+                <p class="education-school">
+                  Jawaharlal Nehru Technological University, Hyderabad, India
+                </p>
+                <p class="education-year mb-0">2011 &ndash; 2015</p>
+              </div>
+            </div>
+          </div>
+
+          <h3 class="skill-category-title fade-in">
+            Relevant Courses at Northeastern
+          </h3>
+          <div class="d-flex flex-wrap gap-3">
+            <span class="course-badge fade-in">
+              <i class="bi bi-diagram-3"></i> Program Design Paradigms (PDP)
+            </span>
+            <span class="course-badge fade-in">
+              <i class="bi bi-database"></i> Database Management Systems (DBMS)
+            </span>
+            <span class="course-badge fade-in">
+              <i class="bi bi-globe2"></i> Web Development
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section" id="hobbies">
+        <div class="container">
+          <h2 class="section-title fade-in">Hobbies &amp; Interests</h2>
+          <p class="section-subtitle fade-in">
+            What I do when I&rsquo;m not writing code.
+          </p>
+
+          <div class="row g-4">
+            <div class="col-6 col-md-4 col-lg-2">
+              <div class="hobby-card fade-in">
+                <span class="hobby-icon" aria-hidden="true">🎯</span>
+                <h3 class="hobby-name">Valorant</h3>
+                <p class="hobby-desc">Tactical FPS</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+              <div class="hobby-card fade-in">
+                <span class="hobby-icon" aria-hidden="true">🔫</span>
+                <h3 class="hobby-name">CS</h3>
+                <p class="hobby-desc">Counter-Strike</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+              <div class="hobby-card fade-in">
+                <span class="hobby-icon" aria-hidden="true">🚀</span>
+                <h3 class="hobby-name">Apex Legends</h3>
+                <p class="hobby-desc">Battle Royale</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+              <div class="hobby-card fade-in">
+                <span class="hobby-icon" aria-hidden="true">🏏</span>
+                <h3 class="hobby-name">Cricket</h3>
+                <p class="hobby-desc">Outdoor sport</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+              <div class="hobby-card fade-in">
+                <span class="hobby-icon" aria-hidden="true">🏓</span>
+                <h3 class="hobby-name">Pickleball</h3>
+                <p class="hobby-desc">Racket sport</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+              <div class="hobby-card fade-in">
+                <span class="hobby-icon" aria-hidden="true">💻</span>
+                <h3 class="hobby-name">PC Gaming</h3>
+                <p class="hobby-desc">Building rigs</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-section">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <h2 class="footer-brand">
+              <span class="gradient-text">Anurag Reddy</span>
+            </h2>
+            <p class="footer-text">
+              Software Developer II &amp; CS Master&rsquo;s student at
+              Northeastern University. Always building, always learning.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h3 class="footer-brand" style="font-size: 1rem">Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="./projects.html">Projects</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h3 class="footer-brand" style="font-size: 1rem">Connect</h3>
+            <div class="social-links">
+              <a
+                href="https://www.linkedin.com/in/anurag-reddy-7140a85a/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link"
+                aria-label="LinkedIn profile"
+              >
+                <i class="bi bi-linkedin"></i>
+              </a>
+              <a
+                href="https://github.com/anurag-reddy1"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link"
+                aria-label="GitHub profile"
+              >
+                <i class="bi bi-github"></i>
+              </a>
+              <a
+                href="mailto:pottigari.a@northeastern.edu"
+                class="social-link"
+                aria-label="Send email"
+              >
+                <i class="bi bi-envelope-fill"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p class="mb-0">
+            &copy; 2026 Anurag Reddy Pottigari. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="module" src="./js/main.js"></script>
   </body>
 </html>

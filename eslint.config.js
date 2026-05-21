@@ -25,8 +25,9 @@ export default [
     plugins: {
       prettier: prettier,
     },
+
     rules: {
-      // ESlint recommended rules
+      // ESLint recommended rules
       ...js.configs.recommended.rules,
 
       indent: [
@@ -38,15 +39,17 @@ export default [
       ],
 
       "linebreak-style": ["error", "unix"],
-      quotes: ["error", "single"],
+      quotes: ["error", "double"],
       semi: ["error", "always"],
       "no-console": 0,
 
-      // Prettier integration
+      // Prettier integration - this runs Prettier through ESLint
       "prettier/prettier": [
         "error",
         {
           endOfLine: "auto",
+          trailingComma: "es5",
+          singleQuote: false,
         },
       ],
     },
