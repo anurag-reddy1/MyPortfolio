@@ -1,4 +1,4 @@
-# DESIGN.md — Portfolio System Design Document
+# Portfolio System Design Document
 
 This document outlines the architecture, design choices, user stories, personas, wireframes, and accessibility patterns for Anurag Reddy Pottigari's Personal Portfolio Website.
 
@@ -9,7 +9,7 @@ This document outlines the architecture, design choices, user stories, personas,
 The Anurag Reddy Pottigari Portfolio is a premium, high-performance, single-author website designed to showcase professional achievements, academic qualifications, and technical projects. 
 
 ### Design Philosophy
-- **Aesthetic**: Locked in a clean, modern **Light Theme** featuring a curated color palette (harmonious Indigo/Navy accents, light slate backgrounds, and crisp borders) with elegant transitions and micro-animations.
+- **Aesthetic**: Locked in a clean, modern **Light Theme** with elegant transitions and micro-animations.
 - **Developer-Centric**: Features a code-editor mockup in the hero section displaying configured details (TS configuration format) with a typed cursor effect.
 - **Minimalist Complexity**: Focuses on accessibility, fast load times, semantic HTML structures, and responsive layouts without bloated frameworks.
 - **Interactive Capabilities**: Houses a custom client-side AI Chatbot ("Ask Anurag") built to automate inquiries regarding Anurag's career.
@@ -76,12 +76,10 @@ The Anurag Reddy Pottigari Portfolio is a premium, high-performance, single-auth
   - Background Neutral: Light Slate Blue (`#f8fafc`) and White (`#ffffff`) for page layers.
   - Text Primary: Dark Slate (`#0f172a`) to ensure maximum readability.
   - Accent Primary: Elegant Indigo (`#6366f1` / Hover `#4f46e5`) to represent professional development.
-  - Border Accents: Muted transparent borders (`rgba(0, 0, 0, 0.08)`) to maintain component separation.
 - **Typography**:
-  - `Inter`: A geometric, highly readable neo-grotesque sans-serif font designed for screens, used as the main body typeface.
-  - `Fira Code`: A monospaced coding font with programming ligatures, used for code-editor mockup configurations.
+  - `Inter`: used as the main body typeface.
 - **Layout Grid**: 12-column responsive Bootstrap 5 grid allowing clean transitions from wide desktop viewports to stacked mobile viewports.
-- **Animations**: Soft transition fade-ins (`translateY(30px)`) powered via JavaScript `IntersectionObserver` to keep page load lightweight while looking modern and dynamic.
+- **Animations**: Soft transition fade-ins (`translateY(30px)`).
 
 ---
 
