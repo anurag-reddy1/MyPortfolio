@@ -105,3 +105,7 @@ Below are structural layout representations for the primary pages of the portfol
 ### Projects Grid Page Layout (`projects.html`)
 
 ![Project Page Design mockup](./images/design_mockup_2.png)
+
+### AI Chatbot Layout (`playground.html`)
+
+![Playground page Design mockup](./images/design_mockup_3.png)
