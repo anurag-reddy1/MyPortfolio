@@ -55,7 +55,7 @@ const RESPONSES = [
       "study",
     ],
     reply:
-      "🎓 I'm currently pursuing my MS in Computer Science at Northeastern University, Boston (2026–Present).\n\nCourses: Program Design Paradigms, DBMS, Web Development.\n\nBefore that:\n📜 Postgraduate Diploma in Cloud Computing for Big Data — Lambton College, Toronto, Canada (2020–2021).\n🎓 B.Tech in Information Technology — Jawaharlal Nehru Technological University, Hyderabad, India (2011–2015).",
+      "🎓 I'm currently pursuing my MS in Computer Science at Northeastern University, Boston (2026–Present).\n\nCourses: Program Design Paradigms, DBMS, Web Development.\n\nBefore that:\n📜 Postgraduate Diploma in Cloud Computing for Big Data — Lambton College, Toronto, Canada.\n🎓 B.Tech in Information Technology — Jawaharlal Nehru Technological University, Hyderabad, India.",
   },
   {
     keywords: ["project", "portfolio", "built", "build"],
