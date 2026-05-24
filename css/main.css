@@ -6,7 +6,7 @@
   --accent: #6366f1;
   --accent-hover: #4f46e5;
   --border: rgba(0, 0, 0, 0.08);
-  --font-main: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-main: "Inter", system-ui, -apple-system, sans-serif;
 }
 
 *,
@@ -98,7 +98,7 @@ img {
 }
 
 .navbar-main .nav-link.active::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 1rem;
@@ -125,8 +125,8 @@ img {
 }
 
 .navbar-toggler-icon::before {
-  content: '\f479';
-  font-family: 'bootstrap-icons';
+  content: "\f479";
+  font-family: "bootstrap-icons";
   font-size: 1.25rem;
   color: var(--text-muted);
 }
@@ -191,7 +191,7 @@ img {
 
 .code-hero-filename {
   color: #64748b;
-  font-family: 'Fira Code', 'Consolas', monospace;
+  font-family: "Fira Code", "Consolas", monospace;
   font-size: 0.75rem;
   margin-left: 0.5rem;
 }
@@ -199,7 +199,7 @@ img {
 .code-hero-body {
   padding: 1.25rem 1.5rem;
   margin: 0;
-  font-family: 'Fira Code', 'Consolas', monospace;
+  font-family: "Fira Code", "Consolas", monospace;
   font-size: 0.9rem;
   line-height: 1.8;
   color: #c9d1d9;
@@ -373,7 +373,7 @@ img {
 }
 
 .timeline::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -543,6 +543,12 @@ img {
 
 .footer-brand {
   font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.footer-title {
+  font-size: 1rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
 }
@@ -860,7 +866,9 @@ img {
 }
 
 @keyframes typingBounce {
-  0%, 60%, 100% {
+  0%,
+  60%,
+  100% {
     transform: translateY(0);
   }
   30% {

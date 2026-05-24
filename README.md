@@ -7,6 +7,7 @@ A premium, highly interactive, and responsive developer portfolio featuring mode
 ## Project Objective
 
 The objective of this project is to provide a clean, highly professional, and responsive central hub that highlights Anurag's career trajectory, academic journey, key technical competencies, and development philosophy. It serves as:
+
 - An interactive resume for recruiters and hiring managers.
 - A technical demonstration of vanilla web engineering excellence.
 - An experimental playground hosting "Ask Anurag", a customized client-side chatbot designed to answer career-related questions instantly.
@@ -22,6 +23,7 @@ The objective of this project is to provide a clean, highly professional, and re
 ## Tech Requirements
 
 The project uses clean, robust, and industry-standard web technologies to ensure fast delivery and cross-device compatibility:
+
 - **Core Structure**: HTML5 (Semantic tags, accessible structure, W3C compliance).
 - **Styling**: CSS3 (Vanilla design token variables, custom layout components, hover effects, CSS animations).
 - **Layout Framework**: Bootstrap 5.3 (Grid system, responsiveness utilities, spacing helper classes).
@@ -34,6 +36,7 @@ The project uses clean, robust, and industry-standard web technologies to ensure
 ## Project Structure
 
 The codebase is organized cleanly as a modular vanilla frontend application:
+
 ```text
 MyPortfolio/
 ├── css/
@@ -80,15 +83,20 @@ Since the portfolio is engineered as a standard frontend application with no hea
 ### Running Locally
 
 #### Option A: Quick Launch with Python
+
 If you have Python installed, run this command in your project root:
+
 ```bash
 python -m http.server 8000
 ```
+
 Then, open your web browser and navigate to:
 `http://localhost:8000`
 
 #### Option B: Developer Server (NodeJS)
+
 If NodeJS is installed, you can use standard server packages like `http-server` or `serve`:
+
 ```bash
 # Install server globally
 npm install -g http-server
@@ -103,27 +111,27 @@ http-server ./
 
 - **Tool & Version**: Gemini 3.5 Flash
 - **Usage Highlights**:
-  - *Chatbot Page Creation*: Utilized generative AI assistance to design and program the conversational AI chatbot ("Ask Anurag"), crafting responsive custom chat flows and micro-animation feedback loops.
-  - *Prompt Used*: Generate a new page that works as a chatbot i.e. answers details when asked something about me. Keep the existing stylings.
+  - _Chatbot Page Creation_: Utilized generative AI assistance to design and program the conversational AI chatbot ("Ask Anurag"), crafting responsive custom chat flows and micro-animation feedback loops.
+  - _Prompt Used_: Generate a new page that works as a chatbot i.e. answers details when asked something about me. Keep the existing stylings.
 
-  - *Fix the hero page title typing effect*: Utilized to fix the bug in title scrolling on the hero page.
-  - *Prompt Used*: Role needs to follow a typing effect on the hero page.
- 
-  - *Also used AI for Brainstorming, debugging and for the documentation*
-  - *Promt Used*: Brainstorm a professinal portfolio website.
-                  Help me debug the layout issue.
-                  Create README.md file based on my project structure.
-                  Give me the basic structure of the design document based on my project structure. Help me with the draft version of the about me page where I can modify based on my needs.
+  - _Fix the hero page title typing effect_: Utilized to fix the bug in title scrolling on the hero page.
+  - _Prompt Used_: Role needs to follow a typing effect on the hero page.
+  - _Also used AI for Brainstorming, debugging and for the documentation_
+  - _Promt Used_: Brainstorm a professinal portfolio website.
+    Help me debug the layout issue.
+    Create README.md file based on my project structure.
+    Give me the basic structure of the design document based on my project structure. Help me with the draft version of the about me page where I can modify based on my needs.
 
 ---
 
 ## Author
 
-**Anurag Reddy Pottigari**  
-- **Homepage**: [Anurag Reddy Pottigari Portfolio](https://anurag-reddy1.github.io/MyPortfolio) *(or open `./index.html` locally)*  
-- **Education**: MSCS Student at Northeastern University, Boston.  
-- **LinkedIn**: [linkedin.com/in/anurag-reddy-pottigari](https://www.linkedin.com/in/anurag-reddy-7140a85a)  
-- **GitHub**: [github.com/anurag-reddy1](https://github.com/anurag-reddy1)  
+**Anurag Reddy Pottigari**
+
+- **Homepage**: [Anurag Reddy Pottigari Portfolio](https://anurag-reddy1.github.io/MyPortfolio) _(or open `./index.html` locally)_
+- **Education**: MSCS Student at Northeastern University, Boston.
+- **LinkedIn**: [linkedin.com/in/anurag-reddy-pottigari](https://www.linkedin.com/in/anurag-reddy-7140a85a)
+- **GitHub**: [github.com/anurag-reddy1](https://github.com/anurag-reddy1)
 - **Email**: [pottigari.a@northeastern.edu](mailto:pottigari.a@northeastern.edu)
 
 ---
@@ -134,7 +142,7 @@ http-server ./
 Northeastern University - Khoury College of Computer Sciences  
 🔗 [Course Link](https://johnguerra.co/classes/webDevelopment_online_summer_2026/)
 
---- 
+---
 
 ## Video Demonstration
 
