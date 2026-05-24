@@ -105,11 +105,15 @@ http-server ./
 - **Usage Highlights**:
   - *Chatbot Page Creation*: Utilized generative AI assistance to design and program the conversational AI chatbot ("Ask Anurag"), crafting responsive custom chat flows and micro-animation feedback loops.
   - *Prompt Used*: Generate a new page that works as a chatbot i.e. answers details when asked something about me. Keep the existing stylings.
+
+  - *Fix the hero page title typing effect*: Utilized to fix the bug in title scrolling on the hero page.
+  - *Prompt Used*: Role needs to follow a typing effect on the hero page.
  
   - *Also used AI for Brainstorming, debugging and for the documentation*
   - *Promt Used*: Brainstorm a professinal portfolio website.
                   Help me debug the layout issue.
                   Create README.md file based on my project structure.
+                  Give me the basic structure of the design document based on my project structure.
 
 ---
 
