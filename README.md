@@ -113,7 +113,7 @@ http-server ./
   - *Promt Used*: Brainstorm a professinal portfolio website.
                   Help me debug the layout issue.
                   Create README.md file based on my project structure.
-                  Give me the basic structure of the design document based on my project structure.
+                  Give me the basic structure of the design document based on my project structure. Help me with the draft version of the about me page where I can modify based on my needs.
 
 ---
 
